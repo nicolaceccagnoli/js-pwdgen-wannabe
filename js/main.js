@@ -15,12 +15,7 @@ console.log(favoriteColor);
 
 // Le Informazioni vengono Stampate in Pagina
 
-const stringaTemplateLiteral = `
-    Ciao mi chiamo:
-    ${userName}
-    ${surname}
-    e il mio colore preferito è il:
-    ${favoriteColor}
-`;
-console.log(stringaTemplateLiteral);
+const password =`${userName}${surname}${favoriteColor}114`;
+console.log(password);
 
+document.getElementById('password').innerHTML = (password);
