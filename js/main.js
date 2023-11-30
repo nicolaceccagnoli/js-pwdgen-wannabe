@@ -7,3 +7,8 @@ console.log(name);
 
 const surname = prompt('Dimmi il tuo Cognome:');
 console.log(surname);
+
+// Prompt del Colore Preferito
+
+const favoriteColor = prompt('Dimmi il tuo colore preferito:');
+console.log(favoriteColor);
