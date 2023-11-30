@@ -22,4 +22,4 @@ console.log(casualNumber);
 const password =`${userName}${surname}${favoriteColor}${casualNumber}`;
 console.log(password);
 
-document.getElementById('password').innerHTML = 'La password generata appositamente per te è :' + ' ' + (password);
+document.getElementById('password').innerHTML = 'La password generata appositamente per te è :' + ' ' + (password) + ' ' + '(Non dirla a nessuno, mi raccomando!)';
