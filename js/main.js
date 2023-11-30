@@ -1,7 +1,7 @@
 // Prompt Del Nome
 
-const name = prompt('Dimmi il tuo Nome:');
-console.log(name);
+const userName = prompt('Dimmi il tuo Nome:');
+console.log(userName);
 
 // Prompt Del Cognome
 
@@ -12,3 +12,15 @@ console.log(surname);
 
 const favoriteColor = prompt('Dimmi il tuo colore preferito:');
 console.log(favoriteColor);
+
+// Le Informazioni vengono Stampate in Pagina
+
+const stringaTemplateLiteral = `
+    Ciao mi chiamo:
+    ${userName}
+    ${surname}
+    e il mio colore preferito è il:
+    ${favoriteColor}
+`;
+console.log(stringaTemplateLiteral);
+
